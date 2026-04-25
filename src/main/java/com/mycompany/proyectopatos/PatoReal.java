@@ -8,7 +8,7 @@ package com.mycompany.proyectopatos;
  *
  * @author sistemas
  */
-public class PatoReal extends Pato implements Volable,Cuaqueable {
+public class PatoReal extends Pato {
     
     @Override
     public void mostrar() {
@@ -16,14 +16,5 @@ public class PatoReal extends Pato implements Volable,Cuaqueable {
     
 }
     
-    @Override
-    public void volar() {
-        System.out.println("Puedo volar con mis alas");
-    }
-    
-    @Override
-    public void cuaquear() {
-        System.out.println("Soy un verdadero pato hago CUAC CUAC");
-    }
     
 }

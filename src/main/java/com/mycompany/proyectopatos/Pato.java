@@ -9,10 +9,33 @@ package com.mycompany.proyectopatos;
  * @author sistemas
  */
 public abstract class Pato {
+    
+    
+    
+    Pato(){
+        
+    }
+    
     public void nadar(){
         System.out.println("TODOS LOS PATOS NADAN");
     }
     
     public abstract void mostrar();
+    
+    public void setVolable(Volable fb){
+        this.fb = fb;
+    }
+    
+    public void setCuaqueable(Cuaqueable qb){
+        this.fb = fb;
+    }
+    
+    public void realizarVuelo(){
+        this.fb = fb;
+    }
+    
+    public void realizarCuaqueo(){
+        this.fb = fb;
+    }
     
 }

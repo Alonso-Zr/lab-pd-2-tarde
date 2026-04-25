@@ -10,7 +10,8 @@ package com.mycompany.proyectopatos;
  */
 public abstract class Pato {
     
-    
+    Cuaqueable cuaqueable;
+    Volable volable;
     
     Pato(){
         
@@ -22,16 +23,16 @@ public abstract class Pato {
     
     public abstract void mostrar();
     
-    public void setVolable(Volable fb){
-        this.fb = fb;
+    public void setVolable(Volable volable){
+        this.volable = volable;
     }
     
-    public void setCuaqueable(Cuaqueable qb){
-        this.fb = fb;
+    public void setCuaqueable(Cuaqueable cuaqueable){
+        this.cuaqueable = cuaqueable;
     }
     
     public void realizarVuelo(){
-        this.fb = fb;
+        return volable;
     }
     
     public void realizarCuaqueo(){

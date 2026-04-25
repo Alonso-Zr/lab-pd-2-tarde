@@ -10,6 +10,10 @@ package com.mycompany.proyectopatos;
  */
 public class PatoReal extends Pato {
     
+    
+    
+    
+    
     @Override
     public void mostrar() {
         System.out.println("Yo soy un verdadero PATO REAL");

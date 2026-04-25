@@ -10,6 +10,10 @@ package com.mycompany.proyectopatos;
  */
 public class PatoSeñuelo extends Pato  {
     
+    PatoSeñuelo(){
+        
+    }
+    
     @Override
     public void mostrar() {
         System.out.println("Yo soy un Pato Señuelo");

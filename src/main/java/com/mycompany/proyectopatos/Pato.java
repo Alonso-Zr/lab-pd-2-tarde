@@ -31,12 +31,5 @@ public abstract class Pato {
         this.cuaqueable = cuaqueable;
     }
     
-    public void realizarVuelo(){
-        return volable;
-    }
-    
-    public void realizarCuaqueo(){
-        this.fb = fb;
-    }
-    
+   
 }

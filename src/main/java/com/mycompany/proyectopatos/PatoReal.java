@@ -10,7 +10,8 @@ package com.mycompany.proyectopatos;
  */
 public class PatoReal extends Pato {
     
-    
+   
+   
     
     
     
@@ -19,6 +20,5 @@ public class PatoReal extends Pato {
         System.out.println("Yo soy un verdadero PATO REAL");
     
 }
-    
-    
+     
 }

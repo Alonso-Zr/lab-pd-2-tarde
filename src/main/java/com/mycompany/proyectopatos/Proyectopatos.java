@@ -24,10 +24,31 @@ public class Proyectopatos {
         PatoSeñuelo patoSeñuelo = new PatoSeñuelo();
         
         patoReal.setCuaqueable(cuaqueo);
-        patoCabezaRoja.setCuaqueable(chirreo);
+        patoCabezaRoja.setCuaqueable(cuaqueo);
+        patoDeGoma.setCuaqueable(chirreo);
+        patoSeñuelo.setCuaqueable(mudo);
+        
+        patoReal.setVolable(volable);
+        patoReal.setVolable(novolable);
         
         patoReal.mostrar();
         patoReal.cuaqueable.cuaquear();
         patoReal.volable.volar();
+        patoReal.nadar();
+        
+        patoCabezaRoja.mostrar();
+        patoCabezaRoja.cuaqueable.cuaquear();
+        patoCabezaRoja.volable.volar();
+        patoCabezaRoja.nadar();
+        
+        patoDeGoma.mostrar();
+        patoDeGoma.cuaqueable.cuaquear();
+        patoDeGoma.volable.volar();
+        patoDeGoma.nadar();
+        
+        patoSeñuelo.mostrar();
+        patoSeñuelo.cuaqueable.cuaquear();
+        patoSeñuelo.volable.volar();
+        patoSeñuelo.nadar();
     }
 }
